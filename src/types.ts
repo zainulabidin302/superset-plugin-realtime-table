@@ -29,6 +29,7 @@ export interface SupersetPluginRealtimeTableStylesProps {
   width: number;
   headerFontSize: keyof typeof supersetTheme.typography.sizes;
   boldText: boolean;
+  refreshInterval: number;
 
 
 }
